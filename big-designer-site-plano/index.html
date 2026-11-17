@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Licon Abrão Nhatave, designer de mídia em Maputo. Identidade visual, design editorial, 3D e web.">
+<title>Licon Abrão Nhatave · Big Designer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Space+Mono:wght@400;700&family=Syne:wght@600;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<template id="shell"><header><div class="wrap"><a class="logo" href="#inicio">BIG<i>.</i>DESIGNER</a>
+<nav><a href="#sobre">Percurso</a><a href="#habilidades">Habilidades</a><a href="#projetos">Projectos</a><a href="#vozes">Vozes</a><a href="#contacto">Contacto</a></nav>
+<a class="btn g cta" style="padding:9px 18px;font-size:14px" href="#contacto">Vamos conversar</a><button class="menu" type="button" aria-label="Abrir menu" aria-expanded="false">Menu</button></div></header>
+
+<main id="inicio">
+<div class="wrap hero">
+<div class="hero-text"><div class="hello"><span class="dot"></span>Maputo, Moçambique · aberto a novos projectos</div>
+<h1 aria-label="Licon Abrão Nhatave"><span class="l1" aria-hidden="true"></span><span class="l2" aria-hidden="true"></span></h1>
+<p class="lead">Desenho para que a tua marca seja <em>lembrada</em>, não apenas vista.</p>
+<div class="btns"><a class="btn p" href="#contacto">Iniciar um projecto</a><a class="btn g" href="#habilidades">Ver o que sei fazer</a></div>
+</div>
+<label class="slot figure" id="fig" data-src="" data-3d=""><input type="file" accept="image/png,image/*,.glb,.gltf" aria-label="Adicionar foto de corpo inteiro ou modelo 3D"><span>+ A tua foto de corpo inteiro (PNG)<small>ou um modelo 3D (.glb)</small></span></label>
+</div>
+<div class="ticker" aria-hidden="true"><div class="tk" id="tk"></div></div>
+
+<section id="sobre"><div class="wrap story">
+<div><h2>Cada marca tem uma história por contar.</h2>
+<p class="sub">Sou designer de mídia e trabalho com identidade visual, design editorial, 3D e interfaces digitais. Gosto de ouvir primeiro, porque o design que funciona nasce de perceber quem está do outro lado do ecrã.</p></div>
+<div class="line">
+<div><small>2021</small><p><strong>Big Designer.</strong> Começo a trabalhar como freelancer e a construir a minha própria marca.</p></div>
+<div><small>2023</small><p><strong>Sadel Service.</strong> Flyers, cartazes e brochuras: o design a sair do ecrã e a chegar às mãos das pessoas.</p></div>
+<div><small>2025</small><p><strong>DRIGO.</strong> Materiais publicitários físicos e campanhas digitais, com responsabilidade por todo o processo.</p></div>
+<div><small>Hoje</small><p>A juntar design, 3D e código para entregar ideias completas, do conceito ao site.</p></div>
+</div></div></section>
+
+<section class="skills" id="habilidades"><div class="wrap">
+<h2>O que levo para cada projecto.</h2>
+<p class="sub">Cada coluna é uma ferramenta que uso para transformar uma ideia tua em algo que se vê, se toca e se usa. As que ainda estou a afinar estão a tracejado, porque aprender faz parte do ofício.</p>
+<div class="cols" id="cols"></div>
+<p class="note">Do papel ao pixel e ao código: desenho a peça e também a construo no navegador, sem perder a ideia pelo caminho.</p>
+<div class="code" aria-label="Exemplo de código escrito por mim"><div class="bar2"><i></i><i></i><i></i></div><pre id="code"></pre></div>
+</div></section>
+
+<section id="projetos"><div class="wrap">
+<h2>Trabalho feito com intenção.</h2>
+<p class="sub">Maquetes conceptuais onde explorei três linguagens visuais diferentes.</p>
+<div class="proj">
+<a href="#projeto-app"><h3>App de Roupas e Acessórios</h3><span class="t">UI / UX</span><p>Uma jornada de compra simples, pensada para quem decide em segundos.</p></a>
+<a href="#projeto-cafe"><h3>Identidade Visual para Café</h3><span class="t">Marca</span><p>Logotipo, embalagem, uniformes e papelaria com carácter artesanal.</p></a>
+<a href="#projeto-livro"><h3>Livro de Apresentação</h3><span class="t">Editorial</span><p>Fotografia industrial e texto técnico numa hierarquia clara e vibrante.</p></a>
+</div></div></section>
+
+<section id="vozes" class="skills"><div class="wrap">
+<h2>Palavras de quem já trabalhou comigo.</h2>
+<div class="rev">
+<blockquote>“Trabalhar com ele foi uma virada de chave para o nosso negócio. Superou todas as expectativas e entregou um resultado impecável.”<cite>Huberto Luiz<small>5 / 5</small></cite></blockquote>
+<blockquote>“A versatilidade e a criatividade dele são impressionantes. Layouts modernos, limpos e altamente atraentes.”<cite>Valdez Ivo<small>4,5 / 5</small></cite></blockquote>
+<blockquote>“Não entrega apenas um design bonito, mas soluções visuais inteligentes que comunicam de verdade com o público.”<cite>Ribeiro dos Santos<small>4,5 / 5</small></cite></blockquote>
+</div></div></section>
+
+<section class="contact" id="contacto"><div class="wrap">
+<h2>Conta-me a tua ideia.</h2>
+<p class="sub">Escreve o essencial e a conversa continua no WhatsApp.</p>
+<form id="f" novalidate>
+<label for="n" style="position:absolute;left:-9999px">O teu nome</label><input id="n" placeholder="Como te chamas?" autocomplete="name">
+<label for="m" style="position:absolute;left:-9999px">A tua mensagem</label><textarea id="m" placeholder="Fala-me do teu projecto…"></textarea>
+<button class="btn" type="submit">Enviar pelo WhatsApp</button><div class="fb" role="status" aria-live="polite" id="fb"></div>
+</form></div></section>
+</main>
+<div id="pages"></div>
+<footer><div class="wrap"><span>© <span id="y"></span> Licon Abrão Nhatave</span><span>Instagram @_big.designer</span><a href="#inicio">Voltar ao topo</a></div></footer></template><div id="root"></div>
+<script src="script.js"></script>
+</body>
+</html>

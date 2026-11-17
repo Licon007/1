@@ -1,0 +1,5 @@
+VERSÃO PLANA: todos os ficheiros na mesma pasta, sem subpastas.
+Envia TODOS estes ficheiros para a raiz do repositório (Add file > Upload files, escolher ficheiros):
+index.html, style.css, script.js, content.json, hero.glb, licon-hero.jpg
+Depois: Settings > Pages > Deploy from a branch > main / (root).
+Para trocar o topo para a foto, em content.json usa: "u": "licon-hero.jpg", "m": 0
